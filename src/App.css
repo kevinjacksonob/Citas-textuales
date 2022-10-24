@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.card {
+  margin: 0 auto;
+  width: fit-content;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+
+.card button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
